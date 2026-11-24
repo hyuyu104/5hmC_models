@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+# prediction outputs
+*.predicted.tsv.gz
+*.coverage.tsv
+*.snps.tsv.gz
+*.log
+out/
+results/
+# internal only (provenance + validation; not needed to run predictions)
+scripts/
+tests/
+demo/
